@@ -111,7 +111,6 @@ class CustomGestureDetector {
         }
 
         try {
-            return ev.getY(mActivePointerIndex);
             return ev.getY(index);
         } catch (Exception e) {
             return ev.getY();
